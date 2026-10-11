@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+.top_header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10% ;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #152351;
+    font-family: "montserrat";
+    font-weight: bold;
+}
+
+.bottom_header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-color: #23242B;
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.top_header_left {
+    display: flex;
+    gap: 100px;
+}
+
+.top_header_right {
+    display: flex;
+    gap: 100px;
+}
+
+.bottom_header_left {
+    display: flex;
+    gap: 115px;
+}
+
+.bottom_header_right {
+    display: flex;
+    gap: 115px;
+}
+
+header {
+    position: relative;
+}
+
+.emblem {
+    position: absolute;
+    padding: 0;
+    width: 110px;
+    height: 110px;
+
+    left: 50%;
+    top: 5px;
+
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.h1 {
+    padding-top: 130px;
+    padding-inline: 500px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 0%;
+    font-family: "playfair display";
+}
+    
+.desc {
+    padding-inline: 500px;
+    font-size: 13px;
+    text-align: center;
+    font-family: "playfair display";
+    font-weight: 200;
+    padding-top: 1%;
+    opacity: 40%;
+}
+
+.ariza__text {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.ariza__text:hover {
+    background-color: #1d4ed8;
+}
+
+.ariza__text {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin-top: 2%;
+    margin-right: 35%;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.malumot__text {
+    display: inline-block;
+    background-color: #23242B;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
