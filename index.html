@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muhandislik Maktabi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/school's emblem/favicon.ico" type="image/x-icon">
@@ -17,27 +17,41 @@
     <div>
         <nav>
             <header>
-                <img src="images/school's emblem/Global Wings Knowledge Emblem.png" alt="" height=120px" width="120px" class="emblem">
-                <div class="top_header">
-                    <ul class="top_header_left">
-                        <li class="number">+998903930013</li>
-                        <li class="gmail">arradarra07@gmail.com</li>
-                    </ul>
-                    <ul class="top_header_right">
-                        <li>
-                            <a class="instagram" href="https://www.instagram.com/navoiy_muhandislik_maktabi?psln=bW1hM2s2ZDJvanhv"">Instagram</a>
-                        </li>
-                        
-                        <li>
-                            <a class="telegram" href="https://t.me/Maqsaddan_Yuksak_natijagacha"">Telegram</a>
-                        </li>
 
-                        <button class="lang_button">
-                            <li>
-                                UZB
-                            </li>
-                        </button>
+                <img src="images/school's emblem/Global Wings Knowledge Emblem.png" alt="" height=120px" width="120px" class="emblem">
+
+
+                <div class="top_header">
+
+                    <ul class="top_header_left">
+                        <li class="number"><img class="header_icon" src="images/icons/phone.png" alt="">+998903930013</li>
+                        <li class="gmail"><img class="header_icon" src="images/icons/gmail.png" alt="">arradarra07@gmail.com</li>
                     </ul>
+
+                    <ul class="top_header_right">
+                        <li><a class="instagram" href="https://www.instagram.com/navoiy_muhandislik_maktabi?psln=bW1hM2s2ZDJvanhv"><img class="header_icon" src="images/icons/instagram.png" alt="">Instagram</a></li>
+                        <li><a class="telegram" href="https://t.me/Maqsaddan_Yuksak_natijagacha"><img class="header_icon" src="images/icons/telegram.png" alt="">Telegram</a></li>
+                        <li class="language-selector">
+                            <details class="lang" data-current-language="uzb">
+                                <summary class="lang_button">
+                                    <img class="language-current-flag language-current-flag--uzb" src="images/icons/uzb-flag.png" alt="">
+                                    <img class="language-current-flag language-current-flag--ru" src="images/icons/rus-flagpng.png" alt="">
+                                    <img class="language-current-flag language-current-flag--en" src="images/icons/uk-flag.png" alt="">
+                                    <span class="language-code language-code--uzb">UZB</span>
+                                    <span class="language-code language-code--ru">RU</span>
+                                    <span class="language-code language-code--en">EN</span>
+                                    <img class="lang_arrow" src="images/icons/down.png" alt="">
+                                </summary>
+                                <ul class="language-menu">
+                                    <li><a class="language-option is-current" href="index.html" aria-current="page"><span>UZB</span><img src="images/icons/uzb-flag.png" alt=""></a></li>
+                                    <li><a class="language-option" href="RUS/index.html"><span>RU</span><img src="images/icons/rus-flagpng.png" alt=""></a></li>
+                                    <li><a class="language-option" href="ENG/index.html"><span>EN</span><img src="images/icons/uk-flag.png" alt=""></a></li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+
+
                 </div>
 
                 <div class="bottom_header">
@@ -62,7 +76,11 @@
                     </ul>
                 </div>
             </header>
+
+
+
             <div class="body">
+
                 <div class="body__text">
                     <h1 class="h1">
                     Yangi avlod muhandislarini biz tayyorlaymiz!
@@ -73,6 +91,7 @@
                 </div>
 
                 <div class="main__buttons">
+
                     <div class="ariza">
                         <a class="ariza__text" href="https://ariza.piima.uz/">
                             Hoziroq ariza topshirish
@@ -84,13 +103,141 @@
                             Batafsil ma'lumot
                         </a>
                     </div>
+
                 </div>
-                <!-- <section id="about">
-                    <h2>Maktab haqida</h2>
-                    <p>Bizning maktabimiz...</p>
-                </section> -->
+
             </div>
         </nav>
+
+        <section class="about" id="about" aria-labelledby="about_title">
+            <div class="about__content">
+                <p class="about__eyebrow">Navoiy Muhandislik Maktabi</p>
+                <h2 class="about__title" id="about_title">Maktabimiz haqida</h2>
+                <p class="about__intro">
+                    Navoiy shahridagi Muhandislik maktabi — muhandislik ta’limiga ixtisoslashgan, Ixtisoslashtirilgan ta’lim muassasalari agentligi tizimidagi maktab. Bu yerda o‘quvchilar matematika va tabiiy fanlar bo‘yicha bilimlarini muhandislik tayyorgarligi bilan bog‘lab boradilar.
+                </p>
+
+                <div class="about__stats" aria-label="Maktab haqida qisqacha">
+                    <div class="about__stat">
+                        <strong>7–10</strong>
+                        <span>2026/2027-yilda qabul sinflari</span>
+                    </div>
+                    <div class="about__stat">
+                        <strong>48</strong>
+                        <span>qabul kvotasi — har bir sinf bosqichi uchun</span>
+                    </div>
+                    <div class="about__stat">
+                        <strong>24</strong>
+                        <span>bir sinfda ko‘pi bilan o‘quvchi</span>
+                    </div>
+                </div>
+
+                <section class="about__schedule" aria-labelledby="schedule_title">
+                    <div class="about__schedule-heading">
+                        <p class="about__number">O‘QUV KUNI</p>
+                        <h3 id="schedule_title">Darslar qanday tashkil etiladi?</h3>
+                        <p>Maktabdagi o‘quv kuni ertalab soat 8:30 da boshlanadi. Asosiy darslar soni o‘quvchining qaysi sinfda o‘qishiga qarab belgilanadi, ammo bir kunlik jadvalda 7 tadan ortiq dars bo‘lmaydi. Asosiy darslar tugagach, o‘quvchilar STEM fanlari bo‘yicha yana bir soatlik majburiy qo‘shimcha mashg‘ulotda qatnashadilar. Shanba kuni maktabda dars o‘tilmaydi.</p>
+                    </div>
+                    <div class="about__schedule-details">
+                        <div class="about__schedule-item">
+                            <strong>7-sinf</strong>
+                            <span>Hafta davomida ikki kun 7 tadan asosiy dars bo‘ladi. Qolgan kunlardagi darslar soni sinf jadvaliga muvofiq belgilanadi.</span>
+                        </div>
+                        <div class="about__schedule-item">
+                            <strong>10-sinf</strong>
+                            <span>10-sinf o‘quvchilari har bir o‘quv kunida 7 tadan asosiy dars bilan shug‘ullanadilar. Bu sinfda haftaning barcha o‘quv kunlari to‘liq jadval asosida o‘tadi.</span>
+                        </div>
+                        <div class="about__schedule-item about__schedule-item--stem">
+                            <strong>STEM mashg‘uloti</strong>
+                            <span>Asosiy darslar yakunlangandan keyin STEM fanlariga bag‘ishlangan bir soatlik qo‘shimcha dars o‘tkaziladi. Bu mashg‘ulot barcha o‘quvchilar uchun majburiy bo‘lib, odatiy dars jadvalidan keyin tashkil etiladi.</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about__path" aria-labelledby="path_title">
+                    <div class="about__path-heading">
+                        <p class="about__number">5 YILLIK TA’LIM DASTURI</p>
+                        <h3 id="path_title">Bilimdan muhandislikka</h3>
+                        <p>Ta’lim dasturi bosqichma-bosqich quriladi: avval mustahkam STEM poydevori yaratiladi, keyin esa o‘quvchilar muhandislik fanlari va oliy ta’lim mazmuni bilan yaqindan tanishadilar.</p>
+                    </div>
+                    <div class="about__path-steps">
+                        <article class="about__path-step">
+                            <span class="about__path-years">1–3-yillar</span>
+                            <h4>Asosiy fanlar poydevori</h4>
+                            <p>Fizika, matematika va xorijiy tillar bo‘yicha bilimlarni rivojlantirishga alohida e’tibor beriladi. Bu fanlar muhandislik masalalarini tushunish va keyingi bosqichga tayyorlanish uchun asos bo‘lib xizmat qiladi.</p>
+                        </article>
+                        <article class="about__path-step">
+                            <span class="about__path-years">4–5-yillar</span>
+                            <h4>Muhandislikka tayyorgarlik</h4>
+                            <p>Muhandislik fanlari bo‘yicha boshlang‘ich tayyorgarlik kuchaytiriladi. 10–11-sinflarda tegishli oliy ta’lim yo‘nalishining birinchi kurs fanlari bilan integratsiya qilingan mashg‘ulotlar ham nazarda tutiladi.</p>
+                        </article>
+                    </div>
+                </section>
+
+                <div class="about__features">
+                    <article class="about__feature">
+                        <span class="about__number">01</span>
+                        <h3>STEM asosidagi ta’lim</h3>
+                        <p>Besh yillik dasturda dastlab fizika, matematika va xorijiy tillarga, keyingi bosqichda esa muhandislik fanlari bo‘yicha boshlang‘ich tayyorgarlikka e’tibor qaratiladi.</p>
+                    </article>
+                    <article class="about__feature">
+                        <span class="about__number">02</span>
+                        <h3>Universitet bilan hamkorlik</h3>
+                        <p>Navoiy davlat konchilik va texnologiyalar universiteti maktabning muhandislik ta’lim dasturini amalga oshirishda hamkor oliygoh hisoblanadi.</p>
+                    </article>
+                    <article class="about__feature">
+                        <span class="about__number">03</span>
+                        <h3>Amaliy tajriba</h3>
+                        <p>11-sinfda o‘quvchilar tanlagan muhandislik yo‘nalishiga mos korxonada ikki oylik ishlab chiqarish amaliyotini o‘taydilar.</p>
+                    </article>
+                </div>
+
+                <div class="about__outcome">
+                    <h3>Oliy ta’limga keyingi qadam</h3>
+                    <p>Belgilangan akademik talablarni bajargan va SAT’dan kamida 1300 ball olgan yoki matematika, fizika yoxud kimyo fanidan B2 darajadagi sertifikatga ega bo‘lgan bitiruvchilar tegishli muhandislik yo‘nalishida qo‘shimcha davlat granti asosida oliygohning 2-kursidan o‘qishni davom ettirish huquqiga ega.</p>
+                </div>
+
+                <div class="about__teacher-selection">
+                    <div>
+                        <p class="about__number">BIZNING USTOZLAR</p>
+                        <h3>Bilim va mahorat sinovdan o‘tadi</h3>
+                        <p>O‘qituvchilar ham <a class="about__teacher-inline-link" href="pages/exams.html">o‘quvchilar topshiradigan imtihonlar</a> kabi bilim sinovlaridan o‘tadilar. Nomzodlar butun viloyat bo‘ylab qat’iy saralashdan o‘tib, o‘z bilim va kasbiy tayyorgarligini namoyish etadilar. Saralash bosqichlari va imtihonlar haqida batafsil ma’lumot olish uchun avval «Imtihonlar» sahifasi bilan tanishing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="site_footer">
+            <div class="site_footer__content">
+                <div class="site_footer__brand">
+                    <img src="images/school's emblem/Global Wings Knowledge Emblem.png" alt="Navoiy Muhandislik Maktabi emblemasi" class="site_footer__emblem">
+                    <div>
+                        <h2>Navoiy Muhandislik Maktabi</h2>
+                        <p>Maktab tanlovi uchun tayyorlangan veb-sayt loyihasi.</p>
+                        <p class="site_footer__author">Loyiha muallifi: <strong>Afzal Baxodirov, 7-«A» sinf o‘quvchisi</strong></p>
+                    </div>
+                </div>
+
+                <nav class="site_footer__nav" aria-label="Pastki navigatsiya">
+                    <h3>Sahifalar</h3>
+                    <a href="pages/teachers.html">O‘qituvchilar</a>
+                    <a href="pages/news.html">Yangiliklar</a>
+                    <a href="pages/exams.html">Imtihonlar</a>
+                    <a href="pages/gallery.html">Gallereya</a>
+                    <a href="#about">Maktab haqida</a>
+                </nav>
+
+                <div class="site_footer__contact">
+                    <h3>Biz bilan bog‘laning</h3>
+                    <a href="tel:+998903930013"><img src="images/icons/phone.png" alt="">+998 90 393 00 13</a>
+                    <a href="mailto:arradarra07@gmail.com"><img src="images/icons/gmail.png" alt="">arradarra07@gmail.com</a>
+                    <a href="https://www.instagram.com/navoiy_muhandislik_maktabi?psln=bW1hM2s2ZDJvanhv"><img src="images/icons/instagram.png" alt="">Instagram</a>
+                    <a href="https://t.me/Maqsaddan_Yuksak_natijagacha"><img src="images/icons/telegram.png" alt="">Telegram</a>
+                    <span class="site_footer__language"><img src="images/icons/uzb-flag.png" alt="">UZB</span>
+                </div>
+            </div>
+            <div class="site_footer__bottom">© Navoiy Muhandislik Maktabi · Maktab tanlovi uchun loyiha</div>
+        </footer>
     </div>
 </body>
 </html>
